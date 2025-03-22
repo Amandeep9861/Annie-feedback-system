@@ -1,4 +1,7 @@
 #Annie-feedback-system
+Customer Feedback Portal (Annie)
+Developed a modern web-based customer feedback system using HTML, CSS, and JavaScript. The project features an interactive form for collecting user feedback, responsive design, and real-time form validation, improving customer support engagement.
+
 #INDEX.HTML
 <!DOCTYPE html>
 <html lang="en">
@@ -67,8 +70,7 @@
 </html>
  
   #STYLES.CSS
-  
-  /* General Styles */
+   /* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -211,8 +213,6 @@ nav ul li a {
 
 
 #SCRIPT.JS
-
-
 document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault();
     document.getElementById('success').style.display = 'block';
